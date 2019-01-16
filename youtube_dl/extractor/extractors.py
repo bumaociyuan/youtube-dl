@@ -1,6 +1,10 @@
 # flake8: noqa
 from __future__ import unicode_literals
 
+from .onlytvb import (
+    OnlyTVBIE,
+)
+
 from .abc import (
     ABCIE,
     ABCIViewIE,
